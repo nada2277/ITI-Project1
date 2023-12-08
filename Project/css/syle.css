@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: auto;
+}
+
+
+/* .... */
+/* .... */
+/* Div Of Home contain bg */
+#header {
+
+    /* background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("../images/bg/1.jpg"); */
+    background-image: linear-gradient(rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0.5)), url("../images/bg/5.jpg");
+    height: 800px;
+
+}
+
+
+/* Div of the Vertical Bar */
+.theBar {
+
+    width: 20%;
+    position: fixed;
+    float: left;
+
+}
+
+
+
+/* Div of the nada button in the Bar for bg in genral */
+.backgOfBtn {
+    /* width: 273.3px; */
+    width: 317px;
+    background-color: rgba(20, 97, 125, 0.851);
+    /* position: absolute; */
+
+}
+
+
+/* the nada button */
+.btnOfBar {
+
+    text-align: center;
+    width: 70%;
+    height: 85px;
+    background-color: rgba(20, 97, 125, 0.851);
+    margin: 40px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: white;
+
+    border: 1px solid white;
+
+
+}
+
+
+/* links in the Bar, Main Pages*/
+.itemsOfBar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.673), rgba(0, 0, 1, 0.673)), url("../images/bg/5.jpg");
+
+    height: 595px;
+    /* position: relative; */
+
+    margin-top: 0;
+    width: 71%;
+    padding-top: 100px;
+    padding-left: 100px;
+
+}
+
+.detailsLink a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+
+
+}
+
+.detailsLink {
+    color: white;
+    /* padding-right: 40px; */
+    padding-top: 10px;
+
+
+}
+
+
+/* Div contain the (h1 , h2) that in home  */
+.textOfHeader {
+    width: 80%;
+    text-align: right;
+    color: white;
+    padding-top: 300px;
+    text-transform: capitalize;
+    padding-left: 200px;
+    font-size: 16.5px;
+
+}
+
+#nameOfQoute{
+    padding-top: 20px;
+}
+
+
+/* button of the home + hover */
+.btnOfStarting {
+    text-align: center;
+    width: 13%;
+    height: 50px;
+    color: rgba(20, 97, 125, 0.74);
+    text-transform: capitalize;
+    font-size: 16px;
+    background-color: white;
+
+    border: 1px solid white;
+    margin-top: 65px;
+
+}
+
+.btnOfStarting:hover {
+    background-color: rgba(20, 97, 125, 0.851);
+    color: white;
+    transition-duration: .5s;
+    cursor: pointer;
+
+
+}
+
+
+/* ..... */
+/* ..... */
+/* Recent Work  */
+
+#recentWorkDiv {
+
+    margin-left: 27%;
+    padding-top: 50px;
+
+
+}
+
+/* Div of all (h1 ,h2) in recent work */
+.textOfRecent {
+    float: left;
+}
+
+/* id of p in recent work */
+#tRec3 {
+    padding-top: 10px;
+    margin-bottom: 40px;
+    text-align: left;
+    padding-left: 230px;
+    font-size: 23px;
+    text-transform: capitalize;
+
+}
+#tRec3:hover{
+    color:rgba(20, 97, 125);
+    font-size: 23px;
+    opacity: 0.8;
+    cursor: pointer;
+    transition-duration: .2s
+
+}
+
+/* id of h1 specific design for "projects" word */
+#tRec2 {
+    color: rgba(20, 97, 125);
+    font-size: 35px;
+
+}
+
+
+/* Div of all images */
+.imgsOfRecent {
+
+    margin-top: 60px;
+}
+
+/* image 1 format for recent work !! + hover  */
+#recImg1 {
+
+    width: 60%;
+    height: 600px;
+    float: left;
+}
+
+#recImg1:hover {
+
+    opacity: 0.6;
+    cursor: pointer;
+    transition-duration: 1s;
+
+}
+
+
+/* image 2 format for recent work !!  + hover */
+#recImg2 {
+
+    width: 34%;
+    height: 270px;
+    margin-left: 45px;
+}
+
+#recImg2:hover {
+
+    opacity: 0.6;
+    cursor: pointer;
+    transition-duration: 1s;
+
+}
+
+
+/* image 3 format for recent work !!  + hover*/
+#recImg3 {
+
+    width: 34%;
+    height: 270px;
+    margin-left: 45px;
+    margin-top: 55px;
+
+}
+
+#recImg3:hover {
+
+    opacity: 0.6;
+    cursor: pointer;
+    transition-duration: 1s;
+
+}
+
+
+/* image 4 format for recent work !!  + hover */
+#recImg4 {
+
+    width: 34%;
+    height: 270px;
+
+    margin-top: 40px;
+
+}
+
+#recImg4:hover {
+
+    opacity: 0.6;
+    cursor: pointer;
+    transition-duration: 1s;
+
+}
+
+
+/* image5 format for recent work !!  + hover */
+#recImg5 {
+
+    width: 60%;
+    height: 270px;
+    margin-left: 45px;
+
+}
+
+#recImg5:hover {
+
+    opacity: 0.6;
+    cursor: pointer;
+    transition-duration: 1s;
+
+}
+
+
+/*....*/
+/*....*/
+/* blog entry  */
+
+#plogEntryDiv {
+
+    margin-left: 27%;
+    padding-top: 50px;
+    float: left;
+
+
+}
+
+/* Div of all (h1 ,h2) in recent work */
+.textOfEntry {
+    float: left;
+
+}
+
+/* id of p in recent work */
+#tEN3 {
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 230px;
+    font-size: 23px;
+    text-transform: capitalize;
+    color: black;
+}
+
+#tEN3:hover{
+    color:rgba(20, 97, 125);
+    font-size: 23px;
+    opacity: 0.8;
+    cursor: pointer;
+    transition-duration: .2s
+
+}
+
+/* id of h1 specific design for "projects" word */
+#tEN2 {
+    color: rgba(20, 97, 125);
+    font-size: 35px;
+
+}
+
+
+
+
+#headerOfImg {
+
+    margin-top: 60px;
+    background-color: rgba(20, 97, 125);
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+
+}
+
+#img_timeDiv {
+    float: left;
+
+
+}
+
+#therightsidetxt {
+    margin-top: 80px;
+    /* width: 61.5%; */
+    width: 69.5%;
+    float: left;
+
+    padding-left: 40px;
+
+    text-transform: capitalize;
+
+    background-color: rgb(235, 234, 234);
+    margin-top: 59.6px;
+    padding-top: 30px;
+
+
+}
+
+#firstEntryBlock {
+
+    display: inline-block;
+
+    width: 100%;
+
+}
+
+#headOfItemEN {
+    color: rgba(20, 97, 125);
+    padding-bottom: 20px;
+}
+
+
+#hisOfItemEN {
+    color: rgb(170, 164, 164);
+
+    padding-bottom: 30px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#paraOfItemEN {
+
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    padding-bottom: 30px;
+
+}
+
+#btnOfEN {
+    text-align: center;
+    width: 30%;
+    height: 50px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    background-color: rgba(20, 97, 125, 0.851);
+    border: 1px solid white;
+
+    margin-bottom: 46.4px;
+    /* border-radius: 10px; */
+}
+
+
+#btnOfEN:hover {
+    background-color: white;
+    color: rgba(20, 97, 125, 0.851);
+    transition-duration: 1s;
+    cursor: pointer;
+    border: 1px solid white;
+
+
+}
+
+.imghover:hover {
+
+    opacity: 0.6;
+    cursor: pointer;
+    transition-duration: 1s;
+
+}
+
+
+/* .... */
+/* .... */
+/* Contact Nada */
+
+/* Div contact Nada */
+#contactDiv {
+
+    margin-left: 27%;
+    padding-top: 50px;
+    float: left;
+
+    margin-bottom: 100px;
+
+}
+
+
+/* Div of Form */
+#formOfContact {
+    margin-top: 100px;
+}
+
+
+/* the Inputs name & passward + it's focus */
+.Inps {
+    width: 500px;
+    height: 34px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid lightslategray;
+
+
+}
+
+/* !!!!!! color not working yet */
+.Inps:focus {
+
+    /* transform: scale(0.9); Shrink the label on active (when clicked) */
+
+    border: 2px solid rgba(20, 97, 125);
+    /* transition-duration: 1s; */
+    /* border: 2px solid #007BFF;  */
+
+    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0px 8px 15px  rgba(20, 97, 125, 0.301);
+
+}
+
+
+/* the Textarea of message + it's focus */
+#messInp {
+    width: 500px;
+    height: 200px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+#messInp:focus {
+
+    border: 2px solid rgba(20, 97, 125);
+    /* transition-duration: 1s; */
+    box-shadow: 0px 8px 15px  rgba(20, 97, 125, 0.301);
+
+}
+
+
+/* send button + it's hover */
+#btnOfContact {
+    width: 516px;
+    height: 50px;
+
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+
+    border: 1px solid white;
+
+    background-color: rgba(20, 97, 125, 0.851);
+    color: white;
+
+}
+
+#btnOfContact:hover {
+    background-color: white;
+    color: rgba(20, 97, 125, 0.74);
+
+    transition-duration: 1s;
+    border: 1px solid lightslategray;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+
+}
+
+
+
+
+/* .... */
+/* .... */
+/* footer Div */
+
+#footerDivIn {
+ 
+    margin-left: 20%;
+    padding-top: 20px;
+    height: 41px;
+    float: left;
+
+    /* width: 77.82%; */
+    width: 80%;
+    background-image: linear-gradient(rgba(36, 36, 36, 0.838), rgba(36, 36, 36, 0.838)), url("../images/bg/5.jpg");
+
+    color: white;
+    text-align: center;
+}
